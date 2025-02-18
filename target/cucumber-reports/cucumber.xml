@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.576" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-18T05:15:02.898708500Z">
+<testcase classname="Registration Functionality" name="Check Registration with Valid Details" time="7.208">
+<system-out><![CDATA[
+Given User is navigated to Registration page................................passed
+When User Enter Valid details in FirstName..................................passed
+And User Enter Valid LastName...............................................passed
+And User Enter Valid Email..................................................passed
+And User Enter Valid telephone..............................................passed
+And User Enter Valid Password...............................................passed
+And User Enter valid confirm password.......................................passed
+And User cliked on disclimer................................................passed
+And User Clicked on Continue................................................passed
+Then User should register successfully and Navigate to Account success page.passed
+]]></system-out>
+</testcase>
+</testsuite>
