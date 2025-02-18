@@ -9,7 +9,7 @@ public class PropertyUtile {
 	 private static Properties properties;
 
 	    static {
-	        try (FileInputStream fileInputStream = new FileInputStream("src/test/TestData.properties")) 
+	        try (FileInputStream fileInputStream = new FileInputStream("src/test/java/Utility_pack/TestData.properties")) 
 	        {
 	            properties = new Properties();
 	            properties.load(fileInputStream);
