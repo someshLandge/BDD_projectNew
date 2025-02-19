@@ -11,8 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 		        "html:target/cucumber-reports/cucumber.html",
 		        "json:target/cucumber-reports/cucumber.json",
 		        "junit:target/cucumber-reports/cucumber.xml" }, 
-		monochrome = true
-		//tags = "@test1"
+		monochrome = true,
+		tags = "@test1"
 
 )
 public class Run extends AbstractTestNGCucumberTests {
